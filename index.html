@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Homes & Gardens</title>
+</head>
+<body>
+  <header class="titulo">Homes & Gardens</header>
+
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">☰</label>
+
+  <nav class="enlaces">
+    <ul class="menu">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Propiedades</a></li>
+      <li><a href="#">Contáctanos</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="casa">
+      <section class="informacion">
+        <h1>Compra la casa de tus sueños</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit vel
+          labore itaque quis iusto eaque neque? Magni vel iste placeat, illum
+          itaque eligendi ipsam fuga architecto sit delectus tenetur magnam.
+        </p>
+      </section>
+
+      <section class="contenido">
+        <div class="imagen">
+          <img src="img/img1.jpg" alt="Casa de ensueño" />
+        </div>
+
+        <div class="formulario">
+          <form action="#" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Primer nombre*" required />
+
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Primer apellido*" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Correo electrónico*" required />
+
+            <div class="boton">
+              <button type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
